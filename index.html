@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Convert words tool</title>
+  </head>
+  <body>
+    <!-- TOP NAVIGATION -->
+    <nav>
+      <img src="logo.png" alt="Logo" class="logo" />
+    </nav>
+    <div class="app">
+      <div class="operation operation--letters">
+        <h2>Shuffle letters</h2>
+        <form class="form form--letter">
+          <input type="text" class="form__input form__input--letters" />
+          <button class="form__btn form__btn--letter">&rarr;</button>
+        </form>
+        <div class="convert_letter"></div>
+      </div>
+      <div class="operation operation--words">
+        <h2>Shuffle words</h2>
+        <form class="form form--word">
+          <input type="text" class="form__input form__input--words" />
+          <button class="form__btn form__btn--word">&rarr;</button>
+        </form>
+        <div class="convert_word"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

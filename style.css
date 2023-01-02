@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444;
+  background-color: #f3f3f3;
+  height: 100vh;
+  padding: 2rem;
+}
+.welcome {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+nav {
+  text-align: center;
+}
+.logo {
+  height: 10rem;
+}
+.app {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+}
+.operation {
+  border-radius: 1rem;
+  padding: 3rem 4rem;
+  color: #333;
+}
+
+.operation--transfer {
+  background-image: linear-gradient(to top left, #ffb003, #ffcb03);
+}
+
+.operation--letters {
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+}
+.operation--words {
+  background-image: linear-gradient(to top left, #4c5451, #ab8229);
+}
+
+.form__input {
+  width: 100%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-family: inherit;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+  padding: 0.3rem 1rem;
+  border-radius: 0.7rem;
+  transition: all 0.3s;
+}
+.form__btn {
+  border: none;
+  border-radius: 0.7rem;
+  font-size: 1.8rem;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-left: 25px;
+}
+.form__label--loan {
+  grid-row: 2;
+}
+.form {
+  display: flex;
+}
+.convert_letter {
+  margin-top: 10px;
+}
